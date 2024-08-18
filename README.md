@@ -6,6 +6,7 @@ Since this tool modifies the app bundle, it is recommended to make a copy of the
 
 ## Prerequisite
 - Xcode Command Line Tools (CLT) must be installed before running this tool, since it uses commands from CLT.
+- Place the script bundle-dylibs in ~/bin and make sure that it’s executable and ~/bin is on the PATH!
 
 ## About
 This tool can be used to make a standalone, hence transferable -between different macOS systems- app out of otherwise dependent app.
